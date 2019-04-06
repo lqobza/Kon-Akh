@@ -28,7 +28,7 @@ public class Animation {
         
     }
     
-    public void setDealy(long d) {delay = d;}
+    public void setDelay(long d) {delay = d;}
     public void setFrame(int i){currentFrame = i;}
     
     public void update()
