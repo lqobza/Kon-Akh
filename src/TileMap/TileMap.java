@@ -72,7 +72,7 @@ public class TileMap {
                 
                 
                 subimage = tileset.getSubimage(col*tileSize, tileSize, tileSize, tileSize);
-                tiles[1][col] = new Tile(subimage,Tile.BLOCKED);
+                 tiles[1][col] = new Tile(subimage,Tile.BLOCKED);
             }
             
           }
@@ -197,6 +197,9 @@ public class TileMap {
          
          }
          
+         
+        
+         
      }
     
     
@@ -204,7 +207,8 @@ public class TileMap {
     
     
     
-    
+     public int getNumRows() { return numRows; }
+      public int getNumCols() { return numCols; }
     
     
     
